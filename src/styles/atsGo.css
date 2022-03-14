@@ -1,44 +1,4 @@
-/* HEADER STUFF */
-body.main {
-  background-color: black;
-}
 
-body.admin {
-  width: 88%;
-  background-color: chocolate;
-}
-
-/* header {
-  width: 100%;
-  height: auto;
-  position: absolute;
-
-} */
-
-/* .photo {
-  aspect-ratio: 3.788;
-  width: 100%;
-  position: absolute;
-  animation: round 48s infinite;
-  opacity: 0;
-  padding-right:17px;
-} */
-
-/* .scene {
-  position: absolute;
-  width: 100%;
-  transform: translateY(var(--translateY));
-  will-change: transform;
-} */
-
-/* .main-img {
-  position: relative;
-  top: 28em;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 12px;
-} */
 
 .teleNum {
   margin-top: 0.5em;
@@ -101,11 +61,6 @@ p.p-gallery {
 
 /* CURT STUFF */
 
-/* hr {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-} */
 .sec-curt {
   display: flex;
   flex-direction: column;
@@ -357,13 +312,7 @@ textarea {
   color: antiquewhite;
 }
 
-p.introText {
-  position: relative;
-  top: 40vh;
-  font-size: 8.75em;
-  color: antiquewhite;
-  text-align: center;
-}
+
 
 .sec {
   background-color: rgb(6, 40, 134);
@@ -371,42 +320,11 @@ p.introText {
   border-radius: 10px;
 }
 
-.curt2 {
-  position: relative;
-  color: antiquewhite;
-  font-size: 4em;
-  top: 40vh;
-  margin-right: 4em;
-  margin-left: 4em;
-  text-align: center;
-}
-
-.curt2:first-letter {
-  font-size: 4.5em;
-}
-
-.curtSig2 {
-  position: relative;
-  color: antiquewhite;
-  font-size: 3em;
-  top: 41vh;
-  text-align: center;
-}
-
 .mainDiv {
   margin-top: 72vh;
 }
 
-iframe#mainVid {
-  display: block;
-  position: relative;
-  top: 56vh;
-  width: 1750px;
-  height: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 12px;
-}
+
 
 iframe#secVid {
   width: 1750px;
@@ -416,46 +334,7 @@ iframe#secVid {
 
 
 @media (max-width: 1840px) {
-  p.introText {
-    position: relative;
-    top: 50vh;
-    font-size: 6.75em;
-    color: antiquewhite;
-    text-align: center;
-  }
-
-  .curt2 {
-    position: relative;
-    color: antiquewhite;
-    font-size: 2.25em;
-    top: 49vh;
-    margin-right: 4em;
-    margin-left: 4em;
-    text-align: center;
-  }
-
-  .curt2:first-letter {
-    font-size: 2.75em;
-  }
-
-  .curtSig2 {
-    position: relative;
-    color: antiquewhite;
-    font-size: 1.5em;
-    top: 53vh;
-    text-align: right;
-    margin-right: 15em;
-  }
-
-  iframe#mainVid {
-    display: block;
-    position: relative;
-    top: 63vh;
-    width: 787.5px;
-    height: 450px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  
 
   .teleNum {
     margin-top: 0.5em;
@@ -519,41 +398,7 @@ iframe#secVid {
 
 @media (max-width: 1510px) {
 
-  p.introText {
-    position: relative;
-    top: 40vh;
-    font-size: 5.75em;
-    color: antiquewhite;
-    text-align: center;
-  }
-
-  .curt2 {
-    position: relative;
-    color: antiquewhite;
-    font-size: 2.75em;
-    top: 38vh;
-    margin-right: 4em;
-    margin-left: 4em;
-    text-align: center;
-  }
-
-  .curt2:first-letter {
-    font-size: 3.25em;
-  }
-
-  .curtSig2 {
-    position: relative;
-    color: antiquewhite;
-    font-size: 2.25em;
-    top: 40vh;
-    text-align: center;
-  }
-
-  iframe#mainVid {
-    display: block;
-    position: relative;
-    top: 50vh;
-  }
+  
 
   .mainDiv {
     margin-top: 53vh;
@@ -576,12 +421,6 @@ iframe#secVid {
   .card {
     width: 12em;
   }
-
-  /* p.p-gallery {
-    color: antiquewhite;
-    text-align: center;
-    font-size: 3.5em;
-  } */
 
   iframe#secVid {
     width: 1050px;
@@ -624,41 +463,7 @@ iframe#secVid {
 } 
 
 @media (max-width: 1310px) {
-  p.introText {
-    position: relative;
-    top: 40vh;
-    font-size: 3.75em;
-    color: antiquewhite;
-    text-align: center;
-  }
-
-  .curt2 {
-    position: relative;
-    color: antiquewhite;
-    top: 38vh;
-    font-size: 1.35em;
-    margin-right: 4em;
-    margin-left: 4em;
-    text-align: center;
-  }
-
-  .curt2:first-letter {
-    font-size: 1.8em;
-  }
-
-  .curtSig2 {
-    position: relative;
-    color: antiquewhite;
-    top: 40vh;
-    text-align: center;
-  }
-
-  iframe#mainVid {
-    position: relative;
-    top: 50vh;
-    width: 787.5px;
-    height: 450px;
-  }
+  
 
   iframe#secVid {
     width: 787.5px;
@@ -667,43 +472,7 @@ iframe#secVid {
 }
 
 @media (max-width: 1200px) {
-  p.introText {
-    position: relative;
-    top: 37vh;
-    font-size: 2.75em;
-    color: antiquewhite;
-    text-align: center;
-  }
-
-  .curt2{
-    position: relative;
-    color: antiquewhite;
-    top: 35vh;
-    font-size: 1.25em;
-    margin-right: 3em;
-    margin-left: 3em;
-  }
-
-  .curt2:first-letter {
-    font-size: 1.75em;
-  }
-
-  .curtSig2 {
-    position: relative;
-    color: antiquewhite;
-    top: 35vh;
-    text-align: center;
-    font-size: 1.25em;
-  }
-
-  iframe#mainVid {
-    position: relative;
-    top: 50vh;
-    height: 400px;
-    width: 700px;
-    margin-right: auto;
-    margin-left: auto;
-  }
+  
 
   iframe#secVid {
     height: 400px;
@@ -719,43 +488,8 @@ iframe#secVid {
 
 
 @media (max-width: 1010px) {
-  p.introText {
-    position: relative;
-    top: 35vh;
-    font-size: 3.25em;
-    color: antiquewhite;
-    text-align: center;
-  }
+  
 
-  .curt2{
-    position: relative;
-    color: antiquewhite;
-    top: 35vh;
-    font-size: 1.5em;
-    margin-right: 3em;
-    margin-left: 3em;
-  }
-
-  .curt2:first-letter {
-    font-size: 2em;
-  }
-
-  .curtSig2{
-    position: relative;
-    color: antiquewhite;
-    top: 37vh;
-    text-align: center;
-  }
-
-  iframe#mainVid {
-    display: block;
-    position: relative;
-    top: 50vh;
-    width: 525px;
-    height: 350px;
-    margin-right: auto;
-    margin-left: auto;
-  }
 
   .mainDiv {
     margin-top: 60vh;
@@ -774,43 +508,7 @@ iframe#secVid {
     max-height: 200px;
   }
 
-  p.introText {
-    top: 25vh;
-    font-size: 3.25em;
-    position: relative;
-    color: white;
-    text-align: center;
-  }
-
-  .curt2 {
-    position: relative;
-    color: antiquewhite;
-    top: 20vh;
-    margin-right: 3em;
-    margin-left: 3em;
-    text-align: center;
-  }
-
-  .curt2:first-letter {
-    font-size: 2em;
-  }
   
-  .curtSig2{
-    position: relative;
-    color: antiquewhite;
-    top: 22vh;
-    text-align: center;
-  }
-
-  iframe#mainVid {
-    display: block;
-    width: 467px;
-    height: 250px;
-    position: relative;
-    top: 25vh;
-    margin-right: auto;
-    margin-left: auto;
-  }
 
   .mainDiv{
     margin-top: -58vh;
@@ -843,41 +541,7 @@ iframe#secVid {
 
 
 @media (max-width: 650px) {
-  p.introText {
-    top: 20vh;
-    position: relative;
-    color: white;
-    text-align: center;
-  }
-
-  .curt2 {
-    position: relative;
-    top: 15vh;
-    color: antiquewhite;
-    margin-right: 3em;
-    margin-left: 3em;
-  }
-
-  .curt2:first-letter {
-    font-size: 2em;
-  }
-
-  .curtSig2{
-    position: relative;
-    color: antiquewhite;
-    top: 17vh;
-    text-align: center;
-  }
-
-  iframe#mainVid {
-    display: block;
-    width: 437.5px;
-    height: 250px;
-    position: relative;
-    top: 25vh;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  
 
   #secVid {
     width: 437.5px;
@@ -891,53 +555,16 @@ iframe#secVid {
 }
 
 @media (max-width: 540px) {
-  p.introText {
-    top: 27vh;
-    font-size: 2.75em;
-    position: relative;
-    color: white;
-    text-align: center;
-  }
+  
 
 
   header .container {
     max-height: 150px;
   }
 
-  .curt2 {
-    font-style: italic;
-    font-size: 1.45em;
-    font-weight: 700;
-    color: antiquewhite;
-    text-align: center;
-    position: relative;
-    top: 19vh;
-  }
-
-  .curt2:first-letter {
-    font-size: 1.9em;
-  }
-
-  .curtSig2 {
-    position: relative;
-    top: 19vh;
-    color: antiquewhite;
-    text-align: center;
-  }
-
   iframe#secVid {
     width: 370px;
     height: 187px;
-  }
-
-  iframe#mainVid {
-    display: block;
-    width: 370px;
-    height: 187px;
-    position: relative;
-    top: 22vh;
-    margin-left: auto;
-    margin-right: auto;
   }
   
   .box1 {
@@ -980,12 +607,7 @@ iframe#secVid {
     margin-top: 0.5vh;
   }
 
-  p.introText {
-    top: 20vh;
-    font-size: 2.25em;
-    color: antiquewhite;
-    text-align: center;
-  }
+  
 }
 
 @media (max-width: 412px) {
@@ -1001,43 +623,7 @@ iframe#secVid {
   .mainDiv {
     margin-top: -8em;
   }
-
-  iframe#mainVid {
-    display: block;
-    width: 310px;
-    height: 175px;
-    position: relative;
-    top: 10vh;
-  }
-
-  p.introText {
-    position: relative;
-    top: 110px;
-    height: 80px;
-    font-size: 1.75em;
-    color: white;
-    text-align: center;
-  }
-
-  .curt2 {
-    font-style: italic;
-    font-size: 1.35em;
-    font-weight: 700;
-    color: antiquewhite;
-    text-align: center;
-    position: relative;
-    top: 6vh;
-  }
-
-  .curt2:first-letter {
-    font-size: 1.9em;
-  }
-  .curtSig2 {
-    position: relative;
-    color: white;
-    top: 5vh;
-  }
-
+  
   .teleNum {
     margin-top: 0.5em;
     text-align: center;
@@ -1048,28 +634,6 @@ iframe#secVid {
 }
 
 @media (max-width: 331px) {
-
-  .curt2 {
-    font-style: italic;
-    font-size: 1em;
-    font-weight: 700;
-    color: antiquewhite;
-    text-align: center;
-    position: relative;
-    top: 7.5vh;
-  }
-
-  .curt2:first-letter {
-    font-size: 1.5em;
-  }
-
-  .curtSig2 {
-    position: relative;
-    color: white;
-    top: 7.5vh;
-    font-size: 1em;
-  }
-
   .teleNum {
     margin-top: 0.5em;
     text-align: center;

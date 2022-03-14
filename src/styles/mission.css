@@ -1,0 +1,249 @@
+.curt2 {
+    position: relative;
+    color: antiquewhite;
+    font-size: 4em;
+    top: 40vh;
+    margin-right: 4em;
+    margin-left: 4em;
+    text-align: center;
+}
+
+.curt2:first-letter {
+    font-size: 4.5em;
+}
+
+.curtSig2 {
+    position: relative;
+    color: antiquewhite;
+    font-size: 3em;
+    top: 41vh;
+    text-align: center;
+}
+
+@media (max-width: 1840px) {
+    .curt2 {
+        position: relative;
+        color: antiquewhite;
+        font-size: 2.25em;
+        top: 49vh;
+        margin-right: 4em;
+        margin-left: 4em;
+        text-align: center;
+    }
+
+    .curt2:first-letter {
+        font-size: 2.75em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        color: antiquewhite;
+        font-size: 1.5em;
+        top: 53vh;
+        text-align: right;
+        margin-right: 15em;
+    }
+}
+
+@media (max-width: 1510px) {
+    .curt2 {
+        position: relative;
+        color: antiquewhite;
+        font-size: 2.75em;
+        top: 38vh;
+        margin-right: 4em;
+        margin-left: 4em;
+        text-align: center;
+    }
+
+    .curt2:first-letter {
+        font-size: 3.25em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        color: antiquewhite;
+        font-size: 2.25em;
+        top: 40vh;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1310px) {
+    .curt2 {
+        position: relative;
+        color: antiquewhite;
+        top: 38vh;
+        font-size: 1.35em;
+        margin-right: 4em;
+        margin-left: 4em;
+        text-align: center;
+    }
+
+    .curt2:first-letter {
+        font-size: 1.8em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        color: antiquewhite;
+        top: 40vh;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .curt2 {
+        position: relative;
+        color: antiquewhite;
+        top: 35vh;
+        font-size: 1.25em;
+        margin-right: 3em;
+        margin-left: 3em;
+    }
+
+    .curt2:first-letter {
+        font-size: 1.75em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        color: antiquewhite;
+        top: 35vh;
+        text-align: center;
+        font-size: 1.25em;
+    }
+}
+
+@media (max-width: 1010px) {
+    .curt2 {
+        position: relative;
+        color: antiquewhite;
+        top: 35vh;
+        font-size: 1.5em;
+        margin-right: 3em;
+        margin-left: 3em;
+    }
+
+    .curt2:first-letter {
+        font-size: 2em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        color: antiquewhite;
+        top: 37vh;
+        text-align: center;
+    }
+}
+
+@media (max-width: 769px) {
+    .curt2 {
+        position: relative;
+        color: antiquewhite;
+        top: 20vh;
+        margin-right: 3em;
+        margin-left: 3em;
+        text-align: center;
+    }
+
+    .curt2:first-letter {
+        font-size: 2em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        color: antiquewhite;
+        top: 22vh;
+        text-align: center;
+    }
+}
+
+@media (max-width: 650px) {
+    .curt2 {
+        position: relative;
+        top: 15vh;
+        color: antiquewhite;
+        margin-right: 3em;
+        margin-left: 3em;
+    }
+
+    .curt2:first-letter {
+        font-size: 2em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        color: antiquewhite;
+        top: 17vh;
+        text-align: center;
+    }
+}
+
+@media (max-width: 540px) {
+    .curt2 {
+        font-style: italic;
+        font-size: 1.45em;
+        font-weight: 700;
+        color: antiquewhite;
+        text-align: center;
+        position: relative;
+        top: 19vh;
+    }
+
+    .curt2:first-letter {
+        font-size: 1.9em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        top: 19vh;
+        color: antiquewhite;
+        text-align: center;
+    }
+}
+
+@media (max-width: 412px) {
+    .curt2 {
+        font-style: italic;
+        font-size: 1.35em;
+        font-weight: 700;
+        color: antiquewhite;
+        text-align: center;
+        position: relative;
+        top: 6vh;
+    }
+
+    .curt2:first-letter {
+        font-size: 1.9em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        color: white;
+        top: 5vh;
+    }
+}
+
+@media (max-width: 331px) {
+    .curt2 {
+        font-style: italic;
+        font-size: 1em;
+        font-weight: 700;
+        color: antiquewhite;
+        text-align: center;
+        position: relative;
+        top: 7.5vh;
+    }
+
+    .curt2:first-letter {
+        font-size: 1.5em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        color: white;
+        top: 7.5vh;
+        font-size: 1em;
+    }
+}
