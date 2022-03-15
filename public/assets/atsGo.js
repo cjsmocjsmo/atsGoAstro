@@ -1,26 +1,40 @@
+// function initLoadReviews() {
+//     $('.review1').empty();
+//     $.get('http://192.168.0.91/AllApprovedReviews', function (data) {
+//         console.log(data);
+//         $.each(data, function (key, val) {
+//             let one = "<div class='rev-card'>";
+//             let two = "<div class='rev-card-body'>";
+//             let three = "<h5 class='rev-card-title'>Review</h5>";
+//             let four = "<p class='rev-cbod'>" + val.Message + "</p>";
+//             let five = "<p class='rev-csig'>" + val.Sig + "</p>";
+//             let six = "</div></div>";
+//             let newReview = one + two + three + four + five + six;
+//             $('.review1').append(newReview);
+//         })
+//     })
+// }
 function initLoadReviews() {
     $('.review1').empty();
     $.get('http://192.168.0.91/AllApprovedReviews', function (data) {
         console.log(data);
         $.each(data, function (key, val) {
-            let one = "<div class='rev-card'>";
             let two = "<div class='rev-card-body'>";
             let three = "<h5 class='rev-card-title'>Review</h5>";
             let four = "<p class='rev-cbod'>" + val.Message + "</p>";
             let five = "<p class='rev-csig'>" + val.Sig + "</p>";
-            let six = "</div></div>";
-            let newReview = one + two + three + four + five + six;
+            let six = "</div>";
+            let newReview = two + three + four + five + six;
             $('.review1').append(newReview);
         })
     })
 }
-
 function initLoadQReviews() {
     $('.reviewadmin').empty();
     $.get('http://192.168.0.91/AllQReviews', function (data) {
         console.log(data);
         $.each(data, function (key, val) {
-            let one = "<div class='reviewTop' style='margin: 1em' id='" + val.UUID + "'>";
+            let one = "<div class='reviewTop' id='" + val.UUID + "'>";
             let two = "<div class='qborder'>";
             let three = "<h5 >Review" + key + "</h5>";
             let threea = "<p>Name: " + val.Name + "</p>";

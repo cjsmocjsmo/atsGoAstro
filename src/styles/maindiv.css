@@ -77,7 +77,7 @@ p.p-gallery {
 
 @media (max-width: 1510px) {
     .mainDiv {
-        margin-top: 53vh;
+        margin-top: 89vh;
     }
 
     .teleNum {
@@ -90,7 +90,31 @@ p.p-gallery {
 
     .atsServ {
         text-align: center;
-        font-size: 3.5em;
+        font-size: 3.75em;
+        color: antiquewhite;
+    }
+
+    .card {
+        width: 12em;
+    }
+}
+
+@media (max-width: 1310px) {
+    .mainDiv {
+        margin-top: 97vh;
+    }
+
+    .teleNum {
+        margin-top: 0.5em;
+        text-align: center;
+        font-size: 5.5em;
+        font-weight: 900;
+        color: antiquewhite;
+    }
+
+    .atsServ {
+        text-align: center;
+        font-size: 3.75em;
         color: antiquewhite;
     }
 
@@ -101,36 +125,52 @@ p.p-gallery {
 
 @media (max-width: 1200px) {
     .mainDiv {
-        margin-top: 80vh;
+        margin-top: 102vh;
     }
-
-
 }
 
 @media (max-width: 1010px) {
-
-
-
     .mainDiv {
-        margin-top: 60vh;
+        margin-top: 75vh;
     }
 }
 
 @media (max-width: 769px) {
     .mainDiv {
-        margin-top: -58vh;
+        margin-top: 73vh;
+    }
+
+    .teleNum {
+        margin-top: 0.5em;
+        text-align: center;
+        font-size: 4em;
+        font-weight: 900;
+        color: antiquewhite;
+        font-size: 2.75em;
+    }
+
+    .atsServ {
+        text-align: center;
+        font-size: 2.2em;
+        color: antiquewhite;
+    }
+
+    p.p-gallery {
+        color: antiquewhite;
+        text-align: center;
+        font-size: 2.2em;
     }
 }
 
 @media (max-width: 650px) {
     .mainDiv {
-        margin-top: -70vh;
+        margin-top: 49vh;
     }
 }
 
 @media (max-width: 540px) {
     .mainDiv {
-        margin-top: 0.5vh;
+        margin-top: 0.25vh;
     }
 
     .sec {
@@ -148,15 +188,21 @@ p.p-gallery {
 
 @media (max-width: 412px) {
     .mainDiv {
-        margin-top: -8em;
+        margin-top: -7em;
     }
 
     .teleNum {
         margin-top: 0.5em;
         text-align: center;
-        font-size: 3.5em;
+        font-size: 2em;
         font-weight: 900;
         color: antiquewhite;
+    }
+
+    p.p-gallery {
+        color: antiquewhite;
+        text-align: center;
+        font-size: 1em;
     }
 }
 
@@ -164,14 +210,20 @@ p.p-gallery {
     .teleNum {
         margin-top: 0.5em;
         text-align: center;
-        font-size: 2.5em;
+        font-size: 2em;
         font-weight: 900;
         color: antiquewhite;
     }
 
     .atsServ {
         text-align: center;
-        font-size: 1.75em;
+        font-size: 1.2em;
         color: antiquewhite;
+    }
+
+    p.p-gallery {
+        color: antiquewhite;
+        text-align: center;
+        font-size: 1.2em;
     }
 }

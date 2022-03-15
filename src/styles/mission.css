@@ -40,8 +40,8 @@
         color: antiquewhite;
         font-size: 1.5em;
         top: 53vh;
-        text-align: right;
-        margin-right: 15em;
+        text-align: center;
+        /* margin-right: 30em; */
     }
 }
 
@@ -50,7 +50,7 @@
         position: relative;
         color: antiquewhite;
         font-size: 2.75em;
-        top: 38vh;
+        top: 65vh;
         margin-right: 4em;
         margin-left: 4em;
         text-align: center;
@@ -64,8 +64,9 @@
         position: relative;
         color: antiquewhite;
         font-size: 2.25em;
-        top: 40vh;
-        text-align: center;
+        top: 72vh;
+        text-align: right;
+        margin-right: 4em;
     }
 }
 
@@ -73,8 +74,8 @@
     .curt2 {
         position: relative;
         color: antiquewhite;
-        top: 38vh;
-        font-size: 1.35em;
+        top: 75vh;
+        font-size: 2.35em;
         margin-right: 4em;
         margin-left: 4em;
         text-align: center;
@@ -87,8 +88,9 @@
     .curtSig2 {
         position: relative;
         color: antiquewhite;
-        top: 40vh;
-        text-align: center;
+        top: 83vh;
+        text-align: right;
+        margin-right: 6em;
     }
 }
 
@@ -96,8 +98,8 @@
     .curt2 {
         position: relative;
         color: antiquewhite;
-        top: 35vh;
-        font-size: 1.25em;
+        top: 65vh;
+        font-size: 2em;
         margin-right: 3em;
         margin-left: 3em;
     }
@@ -109,9 +111,10 @@
     .curtSig2 {
         position: relative;
         color: antiquewhite;
-        top: 35vh;
-        text-align: center;
-        font-size: 1.25em;
+        top: 77vh;
+        text-align: right;
+        margin-right: 2em;
+        font-size: 1.75em;
     }
 }
 
@@ -119,8 +122,8 @@
     .curt2 {
         position: relative;
         color: antiquewhite;
-        top: 35vh;
-        font-size: 1.5em;
+        top: 48vh;
+        font-size: 1.75em;
         margin-right: 3em;
         margin-left: 3em;
     }
@@ -132,8 +135,9 @@
     .curtSig2 {
         position: relative;
         color: antiquewhite;
-        top: 37vh;
-        text-align: center;
+        top: 58vh;
+        text-align: right;
+        margin-right: 4em;
     }
 }
 
@@ -141,10 +145,11 @@
     .curt2 {
         position: relative;
         color: antiquewhite;
-        top: 20vh;
+        top: 50vh;
         margin-right: 3em;
         margin-left: 3em;
         text-align: center;
+        font-size: 1.5em;
     }
 
     .curt2:first-letter {
@@ -154,15 +159,18 @@
     .curtSig2 {
         position: relative;
         color: antiquewhite;
-        top: 22vh;
+        top: 55vh;
         text-align: center;
+        font-size: 1.2em;
+        text-align: right;
+        margin-right: 4em;
     }
 }
 
 @media (max-width: 650px) {
     .curt2 {
         position: relative;
-        top: 15vh;
+        top: 31vh;
         color: antiquewhite;
         margin-right: 3em;
         margin-left: 3em;
@@ -175,20 +183,21 @@
     .curtSig2 {
         position: relative;
         color: antiquewhite;
-        top: 17vh;
-        text-align: center;
+        top: 38vh;
+        text-align: right;
+        margin-right: 4em;
     }
 }
 
 @media (max-width: 540px) {
     .curt2 {
         font-style: italic;
-        font-size: 1.45em;
+        font-size: 1.2em;
         font-weight: 700;
         color: antiquewhite;
         text-align: center;
         position: relative;
-        top: 19vh;
+        top: 25vh;
     }
 
     .curt2:first-letter {
@@ -197,21 +206,22 @@
 
     .curtSig2 {
         position: relative;
-        top: 19vh;
+        top: 30vh;
         color: antiquewhite;
-        text-align: center;
+        text-align: right;
+        margin-right: 3em;
     }
 }
 
 @media (max-width: 412px) {
     .curt2 {
         font-style: italic;
-        font-size: 1.35em;
+        font-size: 1em;
         font-weight: 700;
         color: antiquewhite;
         text-align: center;
         position: relative;
-        top: 6vh;
+        top: 20vh;
     }
 
     .curt2:first-letter {
@@ -221,7 +231,8 @@
     .curtSig2 {
         position: relative;
         color: white;
-        top: 5vh;
+        top:24vh;
+        font-size: .75em;
     }
 }
 
@@ -233,7 +244,7 @@
         color: antiquewhite;
         text-align: center;
         position: relative;
-        top: 7.5vh;
+        top: 11vh;
     }
 
     .curt2:first-letter {
@@ -243,7 +254,7 @@
     .curtSig2 {
         position: relative;
         color: white;
-        top: 7.5vh;
+        top: 14vh;
         font-size: 1em;
     }
 }

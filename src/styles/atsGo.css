@@ -44,7 +44,7 @@ iframe#secVid {
 
   h5 {
     color: antiquewhite;
-    font-size: 3.5em;
+    font-size: 2.5em;
     text-align: center;
   }
 
@@ -78,6 +78,10 @@ iframe#secVid {
     width: 467px;
     height: 250px;
     border-radius: 12px;
+  }
+
+  h3 {
+    font-size: 3em;
   }
 }
 
@@ -115,11 +119,16 @@ iframe#secVid {
     height: 175px;
     border-radius: 12px;
   }
+
+  h3 {
+    font-size: 1.2em;
+  }
 }
 
 @media (max-width: 331px) {
   h3 {
     color: antiquewhite;
-    font-size: 2.5em;
+    font-size: 1.7em;
+    margin: 1em;
   }
 }
