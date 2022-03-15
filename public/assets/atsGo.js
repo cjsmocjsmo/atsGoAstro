@@ -16,7 +16,7 @@
 // }
 function initLoadReviews() {
     $('.review1').empty();
-    $.get('http://192.168.0.91/AllApprovedReviews', function (data) {
+    $.get('http://alphatree.services/AllApprovedReviews', function (data) {
         console.log(data);
         $.each(data, function (key, val) {
             let two = "<div class='rev-card-body'>";
@@ -31,7 +31,7 @@ function initLoadReviews() {
 }
 function initLoadQReviews() {
     $('.reviewadmin').empty();
-    $.get('http://192.168.0.91/AllQReviews', function (data) {
+    $.get('http://alphatree.services/AllQReviews', function (data) {
         console.log(data);
         $.each(data, function (key, val) {
             let one = "<div class='reviewTop' id='" + val.UUID + "'>";
